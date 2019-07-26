@@ -1,4 +1,12 @@
-.main-cont {
-    background: red;
-    height: 200px;
+.bunner {
+    height: 100vh;
+    background: blue;
+}
+
+.image {
+    height: 300px;
+    width: 300px;
+    background: gray;
+    margin: auto;
+    border-radius: 50%;
 }
