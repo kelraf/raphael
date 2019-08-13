@@ -15,15 +15,107 @@
 <body>
     
     <!-- Banner -->
-    <div class="container-fluid">
+    <div class="container-fluid" id="bunner">
         <div class="row">
             <div class="col-md-12 bunner p-0">
 
                 <!-- Nav -->
-                <div class="nav-cont-side">
-                
+                <div class="nav-cont-side " id="nav-cont-side">
+                    
+                    <a href="#bunner" class="text-white link-item" title="Home">
+                        <div class="row">
+                            <div class="col-6 to-hide">Home</div>
+                            <div class="col-6 text-center ">
+                                <!-- <i class="fa fa-home fa-3x"></i> -->
+                                <div class="nav-image-cont">
+                                    <img src="images/home.png" class="img-fluid nav-image" alt="Home Icon">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#about" class="text-white link-item" title="About Me">
+                        <div class="row">
+                            <div class="col-6 to-hide">About</div>
+                            <div class="col-6 text-center pl-3">
+                                <!-- <i class="fa fa-user fa-3x"></i> -->
+                                <div class="nav-image-cont">
+                                    <img src="images/profile.png" class="img-fluid nav-image" alt="Home Icon">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#education" class="text-white link-item" title="Education">
+                        <div class="row">
+                            <div class="col-6 to-hide">Education</div>
+                            <div class="col-6 text-center">
+                                <!-- <i class="fa fa-graduation-cap fa-2x"></i> -->
+                                <div class="nav-image-cont">
+                                    <img src="images/education.png" class="img-fluid nav-image" alt="Home Icon">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#skills" class="text-white link-item" title="My Skills">
+                        <div class="row">
+                            <div class="col-6 to-hide">Skills</div>
+                            <div class="col-6 text-center pl-3">
+                                <!-- <i class="fa fa-certificate fa-3x"></i> -->
+                                <div class="nav-image-cont">
+                                    <img src="images/skills.png" class="img-fluid nav-image" alt="Home Icon">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#work" class="text-white link-item" title="My Work">
+                        <div class="row">
+                            <div class="col-6 to-hide">Contacts</div>
+                            <div class="col-6 text-center pl-3">
+                                <!-- <i class="fa fa-address-book fa-3x"></i> -->
+                                <div class="nav-image-cont">
+                                    <img src="images/work.png" class="img-fluid nav-image" alt="Home Icon">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#contacts" class="text-white link-item" title="Get In Touch">
+                        <div class="row">
+                            <div class="col-6 to-hide">Contacts</div>
+                            <div class="col-6 text-center pl-3">
+                                <div class="nav-image-cont">
+                                    <img src="images/contacts.png" class="img-fluid nav-image" alt="Home Icon">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="text-white link-item" title="Settings">
+                        <div class="row">
+                            <div class="col-6 to-hide">Settings</div>
+                            <div class="col-6 text-center pl-3">
+                                <div class="nav-image-cont">
+                                    <img src="images/settings.png" class="img-fluid nav-image" alt="Home Icon">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- <div class="logo"></div> -->
+
+                <div class="docker" id="docker">
+                    <hr class="lines line-one cross" id="line-one">
+                    <hr class="lines line-two vanish" id="line-two">
+                    <hr class="lines line-three cross" id="line-three">
                 </div>
                 <!-- End of Nav -->
+
+                <!-- Bunner Overlay -->
+                <div class="bunner-overlay"></div>
+                <!-- End of Bunner Overlay -->
 
             </div>
         </div>
@@ -31,7 +123,7 @@
     <!-- End of bunner -->
 
     <!-- About Section -->
-    <div class="container-fluid">
+    <div class="container-fluid" id="about">
         <!-- About Header -->
         <div class="row">
             <div class="col-md-12 text-center pt-3 pb-3">
@@ -60,7 +152,7 @@
     <!-- End of About Section -->
 
     <!-- Education Section -->
-    <div class="container-fluid">
+    <div class="container-fluid" id="education">
         <!-- Education Header -->
         <div class="row">
             <div class="col-md-12 text-center">
@@ -82,11 +174,11 @@
     <!-- End of Education Section -->
 
     <!-- Skills Section -->
-    <div class="container-fluid">
+    <!-- <div class="container-fluid" id="skills">
         <div class="row">
             <div class="col-12"></div>
         </div>
-    </div>
+    </div> -->
     <!-- End of Skills Section -->
 
     <!-- Tools Section -->
@@ -108,7 +200,7 @@
     <!-- End of Tools Section -->
 
     <!-- Skills Section -->
-    <div class="container mt-3 skills-cont">
+    <div class="container mt-3 skills-cont" id="skills">
         <div class="row">
             <div class="col-12 text-center pt-3 pb-3">
                 <h1>Skills</h1>
@@ -162,7 +254,7 @@
     <!-- End of Skills Section -->
 
     <!-- work Section -->
-    <div class="container text-center pt-3 pb-3">
+    <div class="container text-center pt-3 pb-3" id="work">
         <div class="row">
             <div class="col-12">
                 <h1>My Work</h1>
@@ -239,7 +331,7 @@
     <!-- End of work Section -->
 
     <!-- Contact Section -->
-    <div class="container-fluid mt-3 contacts">
+    <div class="container-fluid mt-3 contacts" id="contacts">
         <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-4"></div>
