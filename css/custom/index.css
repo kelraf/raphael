@@ -10,8 +10,8 @@ body {
 
 .bunner {
     height: 100vh;
-    background: #017aff;
     background-image: url(../../images/bunner.jpg);
+    background-image: url(https://media.giphy.com/media/QNFhOolVeCzPQ2Mx85/giphy.gif);
     background-size: cover;
     background-repeat: no-repeat;
 }
