@@ -1,0 +1,145 @@
+body {
+    position: relative;
+}
+.nav-cont-side {
+    background: rgba(0, 0, 0, 0.623);
+    padding-top: 30px;
+    padding-bottom: 40px;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    margin-top: 25px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 1;
+}
+
+.link-item {
+    /* background: brown; */
+    display: block;
+    margin-top: 15px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nav-image-cont {
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+}
+
+.nav-image{
+    transition: .5s;
+}
+.nav-image:hover {
+    transform: scale(.7);
+}
+
+.link-item:hover .nav-image {
+    transform: scale(.7);
+}
+
+.link-item:hover {
+    text-decoration: none;
+}
+
+.to-hide {
+    display: none;
+    padding-top: 13px;
+    padding-left: 18px;
+    overflow: hidden;
+    /* position: relative; */
+    /* left: -50px; */
+    transform: scale(0);
+}
+
+.show {
+    display: block;
+    animation-name: show;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes show {
+    0%{
+        /* left: -70px;
+        letter-spacing: 8px; */
+        display: block;
+        transform: scale(0);
+        }
+    100% {
+        /* left: 5px;
+        letter-spacing: 1px; */
+        transform: scale(1);
+    }
+}
+
+.hide {
+    animation-name: hide;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hide {
+    0% {
+        /* letter-spacing: 1px;
+        left: 5px; */
+        transform: scale(1);
+    }
+    100% {
+        /* left: -70px;
+        letter-spacing: 5px; */
+        transform: scale(0);
+    }
+}
+
+/* .to-hide h5 {
+    vertical-align: bottom !important;
+} */
+
+.docker {
+    width: 60px;
+    height: 40px;
+    position: fixed;
+    right: 30px;
+    top: 2px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.lines {
+    background: white;
+    margin: 0;
+    position: relative;
+    height: 3px;
+    display: block;
+}
+
+.line-one {
+    top: 2px;
+}
+.line-two {
+    top: 14px;
+}
+
+.line-three {
+    top: 26px;
+}
+
+/* Animating Docker */
+
+.show {
+    
+}
+
+/* End of Docker Animation */
+
+.logo {
+    z-index: 1;
+    /* background: red; */
+    width: 60px;
+    height: 50px;
+    position: fixed;
+    left: 60px;
+    top: 2px;
+}

@@ -1,0 +1,124 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background: blue;
+    color: white;
+}
+
+.bunner {
+    height: 100vh;
+    background-image: url(../../images/bunner.jpg);
+    background-image: url(https://media.giphy.com/media/QNFhOolVeCzPQ2Mx85/giphy.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bunner-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.719);
+}
+
+.image {
+    height: 300px;
+    overflow: hidden;
+    width: 300px;
+    background: gray;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.tools-cont {
+    background: #017aff;
+    min-height: 100vh;
+    transition-duration: 1s;
+    color: white;
+}
+
+.tools-icon-wrapper {
+    width: 70%;
+    margin: auto;
+}
+
+.skills-cont {
+    /* min-height: 100vh; */
+}
+
+.image-cont {
+    /* background: rgb(0, 0, 255); */
+    width: 100%;
+    height: auto;
+}
+
+.image-cont img {
+    height: 150px;
+    margin: auto;
+}
+
+.contacts {
+    height: 300px;
+    background: #0076be;
+}
+
+.content-box {
+    height: auto;
+    /* background: red; */
+    position: relative;
+    border: 1px solid white; 
+    border-radius: 10px;
+    cursor: pointer;
+}
+.content-box img {
+    /* height: 100%; */
+    /* background: red; */
+}
+
+.overlay {
+    clip-path: polygon(100% 0, 44% 36%, 43% 70%, 100% 100%, 0 100%, 0 50%, 0 0);
+    background: rgba(0, 0, 0, 0.541);
+    height: 100%;
+    width: 0%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 30px;
+    padding-top: 25px;
+    overflow: hidden;
+    cursor: crosshair;
+    transition-duration: .5s;
+}
+
+.github {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.view {
+    color: white;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 25px;
+    /* margin: auto; */
+    border-radius: 50%;
+}
+
+.content-box:hover .overlay {
+    width: 50%;
+    opacity: 1;
+}
+
+/* .fase {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 3px;
+} */
